@@ -1,29 +1,23 @@
 #include  <iostream> 
 
-namespace first {
-   int hp = 55;
-}
+
+typedef std::string name_t; // nah old  new_t;
+using hp_t = int; // better new_t  = old; 
+
+
 int main () {
 
 
 
-int hp = 100; 
-    std::string player = "Costic";
 
-std::cout<< "hello " << player << '\n';
+ name_t player = "invoker01";
 
-
-
-std::cout << player  << " health: " << first::hp  << '\n';
+  hp_t hp = 55; 
 
 
 
 
-
-
-
-
-
+std::cout << player << '\n' << "health: " << hp;
 
 
 
